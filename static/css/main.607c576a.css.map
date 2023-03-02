@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.607c576a.css","mappings":"AAAA,UAEE,iBAAkB,CADlB,SAEF,CAEA,aACE,iBACF","sources":["index.css"],"sourcesContent":["#headshot {\n  width: 15%;\n  border-radius: 50%;\n}\n\n.project-div {\n  text-align: center;\n}\n"],"names":[],"sourceRoot":""}
