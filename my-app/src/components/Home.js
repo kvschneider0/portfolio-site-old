@@ -10,8 +10,8 @@ import css_img from '../images/css.png';
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-    body div {
-      margin: auto;
+    body {
+      text-align: center;
     }
 `
 

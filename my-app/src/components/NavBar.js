@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 
 import { Button } from './shared';
 
+import resume from '../Rezume.pdf'
 import github_img from '../images/github.png';
 import linkedin_img from '../images/linkedin.png';
 
@@ -37,7 +38,7 @@ function NavBar() {
               <nav>
               <Button as={NavLink} exact to='/portfolio-site'>Home</Button>  
               <Button as={NavLink} to='/portfolio-site/about'>About</Button>    
-              <Button as={NavLink} to='/portfolio-site/resume'>Resume</Button>    
+              <Button as={NavLink} to={resume} target='_blank'>Resume</Button>    
               <Button as={NavLink} to='/portfolio-site/contact'>Contact</Button>
               <Button as={NavLink} to={{pathname: 'https://github.com/Schnyle'}} target="_blank">
                 <img src={github_img} alt='GitHub' />
