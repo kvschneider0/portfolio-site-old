@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { createGlobalStyle } from 'styled-components';
 
-import { Button } from './shared';
+import { NavButton } from './shared';
 
 import resume from '../Rezume.pdf'
 import github_img from '../images/github.png';
@@ -36,16 +36,16 @@ function NavBar() {
           <GlobalStyle />
           <header>
               <nav>
-              <Button as={NavLink} exact to='/portfolio-site'>Home</Button>  
-              <Button as={NavLink} to='/portfolio-site/about'>About</Button>    
-              <Button as={NavLink} to={resume} target='_blank'>Resume</Button>    
-              <Button as={NavLink} to='/portfolio-site/contact'>Contact</Button>
-              <Button as={NavLink} to={{pathname: 'https://github.com/Schnyle'}} target="_blank">
+              <NavButton as={NavLink} exact to='/portfolio-site'>Home</NavButton>  
+              <NavButton as={NavLink} to='/portfolio-site/about'>About</NavButton>    
+              <NavButton as={NavLink} to={resume} target='_blank'>Resume</NavButton>    
+              <NavButton as={NavLink} to='/portfolio-site/contact'>Contact</NavButton>
+              <NavButton as={NavLink} to={{pathname: 'https://github.com/Schnyle'}} target="_blank">
                 <img src={github_img} alt='GitHub' />
-              </Button>    
-              <Button as={NavLink} to={{pathname: 'https://www.linkedin.com/in/kyle-v-schneider/'}} target="_blank">
+              </NavButton>    
+              <NavButton as={NavLink} to={{pathname: 'https://www.linkedin.com/in/kyle-v-schneider/'}} target="_blank">
                 <img src={linkedin_img} alt={'LinkedIn'}/>
-              </Button>    
+              </NavButton>    
               </nav>
           </header>
         </>

@@ -5,7 +5,7 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
     :root {
-      --grey: grey;
+      --light-grey: #191919;
       --dark-grey: #111;
       --white: #fff;
       --baby-blue: #871F78;
@@ -17,6 +17,7 @@ const GlobalStyle = createGlobalStyle`
       margin-top: 40px;
       padding: 30px;
       color: var(--white);
+      font-family: 'Arial';
     }
 `;
 

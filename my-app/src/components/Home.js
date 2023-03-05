@@ -1,4 +1,7 @@
 import { Link } from 'react-router-dom';
+import { createGlobalStyle } from 'styled-components';
+
+import ProjectCard from './ProjectCard';
 
 import selfie_img from '../images/thx-cam.jpg';
 import python_img from '../images/python.png';
@@ -6,12 +9,28 @@ import react_img from '../images/react.png';
 import javascript_img from '../images/javascript.png';
 import html_img from '../images/html.png';
 import css_img from '../images/css.png';
+import chess_img from '../images/ChessDOTCOM.png';
+import thesis_img from '../images/thesis-snipet.png'
 
-import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
     body {
       text-align: center;
+    }
+
+    #technologies-div {
+      border: 5px solid var(--white);
+      width: 50%;
+      margin: auto;
+    }
+
+    #technologies-div img {
+      width: 100px;
+      margin: 10px;
+    }
+
+    .project-card img {
+      width: 75%;
     }
 `
 
@@ -44,15 +63,22 @@ function Home() {
         </div>
       </div>
 
-      <div>
-        
+      <div id='projects-div'>
+        <h2>Projects</h2>
+        <ProjectCard
+          title='Flatiron School Capstone Project'
+          description='A Chess.com clone maybe?'
+          image={chess_img}
+        />
+        <ProjectCard
+          title='Mathematics Honors Thesis'
+          description='Laplacian Leader Follower Dynamics'
+          image={thesis_img}
+        />
       </div>
 
       <div id="contact-div">
-        <h2>Projects</h2>
-        {/* <Link className="project-div">
-          Mathematics Honors Thesis
-        </Link> */}
+
       </div>
     </>
   );
