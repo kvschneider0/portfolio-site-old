@@ -2,17 +2,17 @@ import { Link } from 'react-router-dom';
 import styled from "styled-components";
 
 const Card = styled.div`
-    width: 75%;
+    width: 50%;
     margin: auto;
     background-color: var(--light-grey);
     border: 1px solid var(--white);
     padding: 20px;
     border-radius: 1%;
     margin-bottom: 50px;
+    transition: 0.5s;
 
     &:hover {
         transform: scale(1.05);
-        transition-duration: 0.75s;
     }
 
 `;
