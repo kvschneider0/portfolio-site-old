@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.607c576a.css",
-    "main.js": "/portfolio-site/static/js/main.7c55af5c.js",
+    "main.js": "/portfolio-site/static/js/main.7654ddb0.js",
     "static/media/thesis-snipet.png": "/portfolio-site/static/media/thesis-snipet.d3cf8474a7ec224a9e43.png",
     "static/media/ChessDOTCOM.png": "/portfolio-site/static/media/ChessDOTCOM.b6cb9b2bf2af9aa8cbea.png",
     "static/media/Rezume.pdf": "/portfolio-site/static/media/Rezume.284eaaeedd2343f16bb1.pdf",
@@ -12,10 +12,10 @@
     "static/media/css.png": "/portfolio-site/static/media/css.8bb7633da3e758e43421.png",
     "index.html": "/portfolio-site/index.html",
     "main.607c576a.css.map": "/portfolio-site/static/css/main.607c576a.css.map",
-    "main.7c55af5c.js.map": "/portfolio-site/static/js/main.7c55af5c.js.map"
+    "main.7654ddb0.js.map": "/portfolio-site/static/js/main.7654ddb0.js.map"
   },
   "entrypoints": [
     "static/css/main.607c576a.css",
-    "static/js/main.7c55af5c.js"
+    "static/js/main.7654ddb0.js"
   ]
 }
