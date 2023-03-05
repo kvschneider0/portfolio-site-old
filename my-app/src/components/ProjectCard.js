@@ -22,10 +22,10 @@ const StyledLink = styled(Link)`
     color: var(--white);
 `;
 
-function ProjectCard({ title, description, image }) {
+function ProjectCard({ title, description, image, route }) {
     return (
         <Card>
-          <StyledLink to='/portfolio-site/about' className='project-card'>
+          <StyledLink to={route} className='project-card'>
             <h1>{title}</h1>
             <p>{description}</p>
             <img src={image}/>

@@ -69,11 +69,13 @@ function Home() {
           title='Flatiron School Capstone Project'
           description='A Chess.com clone maybe?'
           image={chess_img}
+          route='/portfolio-site/chess'
         />
         <ProjectCard
           title='Mathematics Honors Thesis'
           description='Laplacian Leader Follower Dynamics'
           image={thesis_img}
+          route='/portfolio-site/thesis'
         />
       </div>
 
