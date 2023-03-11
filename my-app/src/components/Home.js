@@ -3,13 +3,14 @@ import { createGlobalStyle } from 'styled-components';
 
 import ProjectCard from './ProjectCard';
 
-import selfie_img from '../images/thx-cam.jpg';
+import chess_img from '../images/ChessDOTCOM.png';
+import css_img from '../images/css.png';
+import flask_img from '../images/flask.png'
+import html_img from '../images/html.png';
+import javascript_img from '../images/javascript.png';
 import python_img from '../images/python.png';
 import react_img from '../images/react.png';
-import javascript_img from '../images/javascript.png';
-import html_img from '../images/html.png';
-import css_img from '../images/css.png';
-import chess_img from '../images/ChessDOTCOM.png';
+import selfie_img from '../images/thx-cam.jpg';
 import thesis_img from '../images/thesis-snipet.png'
 
 
@@ -20,7 +21,7 @@ const GlobalStyle = createGlobalStyle`
 
     #technologies-div {
       border: 5px solid var(--white);
-      width: 50%;
+      width: 40%;
       margin: auto;
     }
 
@@ -32,11 +33,23 @@ const GlobalStyle = createGlobalStyle`
     .project-card img {
       width: 75%;
     }
+
+    #tech-logo-container {
+      width: 80%;
+      margin: auto;
+    }
 `
 
 function Home() {
 
-  const technologies = [python_img, react_img, javascript_img, html_img, css_img ]
+  const technologies = [
+    python_img, 
+    flask_img, 
+    javascript_img, 
+    react_img, 
+    html_img, 
+    css_img 
+  ]
   const tech_list = technologies.map(url => {
       return <img key={url} src={url}/>
   });

@@ -29,7 +29,6 @@ function App() {
   return (
     <div>
       <GlobalStyle/>
-
       <NavBar/>
       <Switch>
 
@@ -50,7 +49,7 @@ function App() {
         <Route path="/portfolio-site/chess">
           <Chess />
         </Route>
-        
+
       </Switch>
     </div>
   );
