@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.607c576a.css",
-    "main.js": "/portfolio-site/static/js/main.86d40e30.js",
+    "main.js": "/portfolio-site/static/js/main.a031edcf.js",
     "static/media/thesis-snipet.png": "/portfolio-site/static/media/thesis-snipet.d3cf8474a7ec224a9e43.png",
     "static/media/ChessDOTCOM.png": "/portfolio-site/static/media/ChessDOTCOM.b6cb9b2bf2af9aa8cbea.png",
-    "static/media/Rezume.pdf": "/portfolio-site/static/media/Rezume.58beebe7e60d07d0e442.pdf",
+    "static/media/Rezume.pdf": "/portfolio-site/static/media/Rezume.00c5c95ca6c46f70b3d3.pdf",
     "static/media/thx-cam.jpg": "/portfolio-site/static/media/thx-cam.adddf3d5a49a8efc9384.jpg",
     "static/media/react.png": "/portfolio-site/static/media/react.45efea17bbb80debfd2a.png",
     "static/media/python.png": "/portfolio-site/static/media/python.e1430e50fe16edba12fd.png",
@@ -12,10 +12,10 @@
     "static/media/css.png": "/portfolio-site/static/media/css.8bb7633da3e758e43421.png",
     "index.html": "/portfolio-site/index.html",
     "main.607c576a.css.map": "/portfolio-site/static/css/main.607c576a.css.map",
-    "main.86d40e30.js.map": "/portfolio-site/static/js/main.86d40e30.js.map"
+    "main.a031edcf.js.map": "/portfolio-site/static/js/main.a031edcf.js.map"
   },
   "entrypoints": [
     "static/css/main.607c576a.css",
-    "static/js/main.86d40e30.js"
+    "static/js/main.a031edcf.js"
   ]
 }
