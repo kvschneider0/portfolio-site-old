@@ -11,7 +11,8 @@ import javascript_img from '../images/javascript.png';
 import python_img from '../images/python.png';
 import react_img from '../images/react.png';
 import selfie_img from '../images/thx-cam.jpg';
-import thesis_img from '../images/thesis-snipet.png'
+import thesis_img from '../images/thesis-snipet.png';
+import ggg_img from '../images/GGG.PNG';
 
 
 const GlobalStyle = createGlobalStyle`
@@ -79,7 +80,7 @@ function Home() {
       <div id='projects-div'>
         <h2>Projects</h2>
         <ProjectCard
-          title='Flatiron School Capstone Project'
+          title='Chess by Kyle'
           description='A Chess.com clone maybe?'
           image={chess_img}
           route='/portfolio-site/chess'
@@ -89,6 +90,12 @@ function Home() {
           description='Laplacian Leader Follower Dynamics'
           image={thesis_img}
           route='/portfolio-site/thesis'
+        />
+        <ProjectCard
+          title={'Gaben\'s Game Gallery'}
+          description='Laplacian Leader Follower Dynamics'
+          image={ggg_img}
+          route='/portfolio-site/gabensgames'
         />
       </div>
 

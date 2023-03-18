@@ -3,8 +3,6 @@ import { createGlobalStyle } from 'styled-components';
 
 import NavBar from './NavBar';
 import Home from './Home';
-import Chess from './Chess';
-import Thesis from './Thesis';
 
 const GlobalStyle = createGlobalStyle`
     :root {
@@ -37,17 +35,19 @@ function App() {
         </Route>
 
         <Route path="/portfolio-site/about">
-          <>
-            <h1> Hello </h1>
-          </>
+          <h1> About Me </h1>
         </Route>
 
         <Route path="/portfolio-site/thesis">
-          <Thesis />
+          <h1>Thesis - Coming Soon</h1>
         </Route>
 
         <Route path="/portfolio-site/chess">
-          <Chess />
+          <h1>Chess by  Kyle - Coming Soon</h1>
+        </Route>
+
+        <Route path="/portfolio-site/gabensgames">
+          <h1>Gaben's Game Gallery - Coming Soon</h1>
         </Route>
 
       </Switch>
