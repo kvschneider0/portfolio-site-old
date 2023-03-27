@@ -1,0 +1,10 @@
+services:
+  - name: web
+    buildCommand: npm run build
+    environment:
+      NODE_ENV: production
+    envVars:
+      - key: REACT_APP_API_URL
+        value: https://api.example.com
+    staticPublishPath: build
+    port: 8080
